@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background: url(black1.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body {
+    font-family: "Lucida Handwriting", "Lucida Console", sans-serif;
+    font-weight: 200;
+    color: #af9f9f;
+    line-height: 1.9;
+    font-size: 20px;
+    padding: 50px;
+}
+.budzet-cifra {
+    font-size: 24px;
+    color: #290202;
+}
+.first {
+    background-image: url(grey1.png);
+    border-color: #b1d8ba;
+    border-radius: 15px;
+    padding-bottom: 10px;
+}
+.top {
+    text-align: center;
+    position: relative;
+    left: 30%;
+    margin-top: -5px;
+    margin-left: -50px;
+    width: 500px;
+}
+ul {
+    list-style: none;
+}
+.under1 {
+    position: relative;
+    left: 30%;
+    margin-top: 10px;
+    background-color: #e0d8d8;
+    border-color: #290202;
+    color: #290202;
+    border-radius: 15px;
+    width: 500px;
+    padding: 5px;
+}
+.lista-prihodi {
+    background-color: #e0d8d8;
+    color: #290202;
+    border-radius: 15px;
+    width: 600px;
+}
+.lista-rashodi {
+    background-color: #6b222d;
+    color: #c99ba1;
+    border-radius: 15px;
+    width: 600px;
+}
+.under2 {
+    position: relative;
+    left: 30%;
+    background-color: #6b222d;
+    color: #c99ba1;
+    border-color: #6d000f;
+    border-radius: 15px;
+    width: 500px;
+    padding: 5px;
+}
+.li-prihod,
+.li-rashod,
+.naziv1,
+.naziv2 {
+    width: 250px;
+    display: inline-block;
+}
+.li-rashod-cifra,
+.li-prihod-cifra,
+.prihod-cifra {
+    width: 100px;
+    display: inline-block;
+}
+.rashod-cifra {
+    width: 150px;
+    display: inline-block;
+}
+.li-rashod-procenat,
+.rashod-procenat {
+    width: 75px;
+    display: inline-block;
+}
+.unos-rashod,
+.unos-prihod {
+    padding-left: 10px;
+}
+
+#forma {
+    position: relative;
+    left: 30%;
+}
+#div-prihodi {
+    margin-top: 25px;
+    display: inline-block;
+    position: absolute;
+    left: 5%;
+    width: 50%;
+}
+#div-rashodi {
+    margin-top: 25px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    width: 50%;
+}
+#select {
+    width: 40px;
+}
+#opis {
+    width: 300px;
+}
+#iznos {
+    width: 100px;
+}
+#btn {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#btn:visited {
+    padding: 0.8rem 2.5rem;
+    border-radius: 3rem;
+    background-color: #5ec576;
+    color: #222;
+}
+#btn:hover,
+#btn:active {
+    background-color: #6b222d;
+    color: #c99ba1;
+}
+.btn-del {
+    display: none;
+}
+ul li:hover .btn-del {
+    display: inline-block;
+    background-color: #e0d8d8;
+    color: #6b222d;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Lucida Handwriting", "Lucida Console", sans-serif;
+    font-weight: 500;
+    border-radius: 2rem;
+}

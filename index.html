@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header id="header">
+        <section class="first">
+            <div class="top">
+                <p class="budzet"></p>
+                <p class="budzet-cifra"></p>
+            </div>
+            <div class="under1">
+                <span class="naziv1">PRIHOD</span>
+                <span class="prihod-cifra"></span>
+            </div>
+            <div class="under2">
+                <span class="naziv2">RASHOD</span>
+                <span class="rashod-cifra"></span>
+                <span class="rashod-procenat"></span>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section>
+            <form id="forma">
+                <select name="select" id="select">
+                    <option value="opcija-rashod">-</option>
+                    <option value="opcija-prihod">+</option>
+                </select>
+                <input type="text" name="opis" id="opis" placeholder="Opis">
+                <input type="text" name="iznos" id="iznos" placeholder="Iznos" pattern="^\d*(\.\d{0,2})?$">
+                <input type="submit" id="btn" value="&#10003;">
+            </form>
+        </section>
+        <section>
+            <div id="div-prihodi">
+                <h3>PRIHODI</h3>
+                <ul class="lista-prihodi">
+                </ul>
+            </div>
+            <div id="div-rashodi">
+                <h3>RASHODI</h3>
+                <ul class="lista-rashodi">
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
